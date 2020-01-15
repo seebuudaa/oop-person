@@ -1,4 +1,4 @@
-let test = require("../src/oop_abstraction");
+let test = require("../src/person");
 let person = new test("thabo", 20, "male", ["riding cars", "running"])
 
 describe("testing for output", () => {
