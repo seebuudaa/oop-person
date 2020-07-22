@@ -1,14 +1,14 @@
 let Person = require("../src/person"),
     person = new Person("Ryan", 30, "male", [
         "being a hardarse",
-        " agile",
+        " agile" + " and" +
         " ssd hard drives"
     ]);
 
 describe("the generic data and functionality of a human", () => {
     it("should equate to the function's data ", () => {
         expect(person.hello()).toEqual(
-            "Hello, my name is Ryan and I am 30 years old. My interests are being a hardarse, agile, ssd hard drives");
+            "Hello, my name is Ryan and I am 30 years old. My interests are being a hardarse, agile and ssd hard drives");
     });
 
     it("should include name: Ryan", () => {
