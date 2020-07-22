@@ -7,11 +7,12 @@ class Person {
         this.gender = gender;
         this.interests = interests
     }
-    hello = function () {
+    hello () {
         return `Hello, my name is ${this.name} and I am ${this.age} years old. My interests are ${this.interests}`;
     }
 }
 let person = new Person ("Ryan",30, "male", ["being a hardarse","agile","ssd hard drives", "drive"])
 
+// console.log(person.hello())
 
-module.exports = Person;
+module.exports =  Person  ;
