@@ -21,6 +21,6 @@
 * create src and spec folders
 * src folder include actual file that has the code and spec folder contains jasmine spec file
 
-<img src="src/pic1.png" width="300"> 
+<img src="src/pic1.jpg" width="300"> 
  
 # happy coding!
