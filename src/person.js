@@ -50,6 +50,6 @@ function signupHandler(event) {
 
 form.addEventListener('submit', signupHandler);
 
-//  module.exports =  Person  ;
+module.exports =  Person  ;
 
 
